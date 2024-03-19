@@ -17,7 +17,7 @@ The collected data comes from these six traffic sensors provided by the smart ci
 | Knoepfle_Nord | 95a79150-a49c-4580-8397-aa380cc596e3 |
 | Knoepfle_Ost | 71e09626-6b0d-42c4-91e1-1ddc59e03c0e |
 
-The unprocessed data is organized into chunks within the `raw-data` directory. Each file corresponds to a specific quarter for each sensor. Below is a JSON example response from the data endpoint.
+The unprocessed data is organized into chunks within the [raw-data](raw-data) directory. Each file corresponds to a specific quarter for each sensor. Below is a JSON example response from the data endpoint.
 
 ```json
 {
@@ -52,7 +52,7 @@ Below is an illustrative request to retrieve data for the Eugen-Jaekle-Platz Sen
 
 ## Transform Data:
 
-The raw collected data has been converted into a more practical format. In its original state, sensor values are spread across different objects instead of being consolidated within one object for each timestamp. This issue is resolved through the transformation process executed by the Jupyter notebook `data\ProcessRawData.ipynb`. Additionally, the notebook includes comments to aid in understanding the transformation procedure.
+The raw collected data has been converted into a more practical format. In its original state, sensor values are spread across different objects instead of being consolidated within one object for each timestamp. This issue is resolved through the transformation process executed by the Jupyter notebook [data\ProcessRawData.ipynb](data\ProcessRawData.ipynb). Additionally, the notebook includes comments to aid in understanding the transformation procedure.
 
 As a result of this transformation process, each sensor has a single JSON file encompassing all data for the entire time period:
 
