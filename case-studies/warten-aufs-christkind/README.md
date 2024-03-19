@@ -2,7 +2,9 @@
 
 Waiting for Christ Child is a publik bar event in Heidenheim with a long tradition. Every bar has opend an the streets are full of people: https://www.hz.de/lokales/heidenheim/warten-aufs-christkind-2023-in-heidenheim-alle-infos-rund-um-die-party-verkehr-und-die-regeln
 
-The sensors in the pedestrian zone will allow a comparison of visitor numbers in 2022 and 2023.
+The sensors in the pedestrian zone will allow a comparison of visitor numbers in 2022 and 2023. The sensors are located here: 
+
+![Map of sensors](map_of_sensors.png)
 
 ## Results
 
