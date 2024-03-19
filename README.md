@@ -52,9 +52,9 @@ Below is an illustrative request to retrieve data for the Eugen-Jaekle-Platz Sen
 
 ## Transform Data:
 
-The raw collected data has been converted into a more practical format. In its original state, sensor values are spread across different objects instead of being consolidated within one object for each timestamp. This issue is resolved through the transformation process executed by the Jupyter notebook [data\ProcessRawData.ipynb](data\ProcessRawData.ipynb). Additionally, the notebook includes comments to aid in understanding the transformation procedure.
+The raw collected data has been converted into a more practical format. In its original state, sensor values are spread across different objects instead of being consolidated within one object for each timestamp. This issue is resolved through the transformation process executed by the Jupyter notebook [data/ProcessRawData.ipynb](data/ProcessRawData.ipynb). Additionally, the notebook includes comments to aid in understanding the transformation procedure.
 
-As a result of this transformation process, each sensor has a single JSON file encompassing all data for the entire time period:
+As a result of this transformation process, each sensor has a single JSON file encompassing all data for the entire time period ([data-Folder](data)):
 
 - [Arkaden.json](data/Arkaden.json)
 - [Brenzstr.json](data/Brenzstr.json)
