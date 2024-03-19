@@ -96,3 +96,9 @@ Each sensor value is now grouped by the corresponding timestamp. Here an example
 
 > [!IMPORTANT]  
 > Some of the sensor data show large time gaps. For example, the "Schloss Arkaden" sensor provides no data from 01.02.23 12:00 to 06.02.23 07:00. [More information on the missing sensor values here](data/MissingSensorValues.md). 
+
+## Case Studies
+
+The [case-studies](case-studies) folder contains sample scenarios for the data provided. Example case studies:
+
+* [Warten auf's Christkind (Waiting for Santa Claus) Heidenheim 2022 vs 2023](/case-studies/warten-aufs-christkind/README.md)
