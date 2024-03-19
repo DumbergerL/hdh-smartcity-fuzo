@@ -63,5 +63,36 @@ As a result of this transformation process, each sensor has a single JSON file e
 - [Knoepfle_Nord.json](data/Knoepfle_Nord.json)
 - [Knoepfle_Ost.json](data/Knoepfle_Ost.json)
 
+Each sensor value is now grouped by the corresponding timestamp. Here an example of the JSON format:
+
+```json
+{
+  "id": "0438a9cc-95cb-4111-bd3c-34dec97c720a",
+  "name": "Zugang Arkaden Olgastr",
+  "latitude": 48.67927135526141,
+  "longitude": 10.152471894699366,
+  "labelIdentifier": "3bc2a1ae-8a6f-4cc6-aab0-0e7ac50f3077",
+  "groupIdentifier": "d18db740-d364-43ff-86c7-9655d009a529",
+  "singleDataPoints": {
+    "2022-12-31 23:30:00": {
+      "datetime": "2022-12-31 23:30:00",
+      "timestamp": 1672525800.0,
+      "bicycle.in": "0",
+      "bicycle.out": "0",
+      "person.in": "2",
+      "person.out": "3"
+    },
+    "2022-12-31 23:00:00": {
+      "datetime": "2022-12-31 23:00:00",
+      "timestamp": 1672524000.0,
+      "bicycle.in": "0",
+      "bicycle.out": "0",
+      "person.in": "1",
+      "person.out": "3"
+    }
+  }
+}
+```
+
 > [!IMPORTANT]  
 > Some of the sensor data show large time gaps. For example, the "Schloss Arkaden" sensor provides no data from 01.02.23 12:00 to 06.02.23 07:00. [More information on the missing sensor values here](data/MissingSensorValues.md). 
