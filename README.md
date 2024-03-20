@@ -102,3 +102,4 @@ Each sensor value is now grouped by the corresponding timestamp. Here an example
 The [case-studies](case-studies) folder contains sample scenarios for the data provided. Example case studies:
 
 * [Warten auf's Christkind (Waiting for Santa Claus) Heidenheim 2022 vs 2023](/case-studies/warten-aufs-christkind/README.md)
+* [Demonstration: "Nie wieder ist jetzt! (10.02.2024)"](/case-studies/demonstration-nie-wieder-ist-jetzt/README.md)
