@@ -25,6 +25,9 @@ def avgReducer(dataPoints, dictValueKey, pointsToReduce = 3):
     return values
 
 def sumReducer(dataPoints, dictValueKey):
+    return sumReducerWithReset(dataPoints, dictValueKey, [])
+
+def sumReducerWithReset(dataPoints, dictValueKey, resetOnDateTimes):
     currentValue = 0
     values = []
     
@@ -33,4 +36,8 @@ def sumReducer(dataPoints, dictValueKey):
         dictCopy[dictValueKey] = currentValue
         currentValue += int(dataPoint[dictValueKey])
         values.append(dictCopy)
+
+        if 'datetime' in dataPoint and dataPoint['datetime'] in resetOnDateTimes:
+            currentValue = 0
+
     return values
