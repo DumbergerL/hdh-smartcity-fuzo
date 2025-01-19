@@ -105,3 +105,8 @@ The [case-studies](case-studies) folder contains sample scenarios for the data p
 * [Warten auf's Christkind (Waiting for Santa Claus) Heidenheim 2022 vs 2023](/case-studies/warten-aufs-christkind/README.md)
 * [Demonstration: "Nie wieder ist jetzt! (10.02.2024)"](/case-studies/demonstration-nie-wieder-ist-jetzt/README.md)
 * [Does Weather Affect Visitor Numbers in Heidenheim Downtown?](/case-studies/correlation-weather/README.md)
+
+
+*Draft:*
+
+* ["Hier und Jetzt"-Festival](/case-studies/hier-und-jetzt/README.md)
